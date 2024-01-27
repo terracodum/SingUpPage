@@ -1,0 +1,93 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+:root {
+    
+}
+
+.mp {
+    display: flex;
+    gap: 0px;
+    height:100vh;
+    
+}
+
+.main_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    background-image: url(./images/levi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aot {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.odin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0,0.6);
+    width: 40vw;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color:#fff;
+    margin-bottom: 45%;
+    font-weight: bolder;
+}
+.form_page {
+    padding-left: 30px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+
+    background-color: rgb(240,240,240);
+}
+
+.head {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form {
+    padding: 15px 10px;
+    background-color:#eee;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+#forn_reg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.line {
+    margin: 20px 30px;
+    margin-left: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.submit {
+    background-color: #36a4b5;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom:1%;
+}
