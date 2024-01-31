@@ -49,6 +49,7 @@
     width: 60vw;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap:25px;
 
     background-color: rgb(240,240,240);
