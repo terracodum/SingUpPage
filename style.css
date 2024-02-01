@@ -67,6 +67,10 @@
 }
 #forn_reg {
     display: flex;
+    flex-direction: column;
+}
+.lines_col {
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -80,6 +84,8 @@
 }
 
 .submit {
+    opacity: 0;
+    color: #eee;
     background-color: #36a4b5;
     border: none;
     padding: 10px 15px;
