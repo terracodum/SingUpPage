@@ -45,6 +45,7 @@
     font-weight: bolder;
 }
 .form_page {
+    max-height: 100vh;
     padding-left: 30px;
     width: 60vw;
     display: flex;
@@ -75,7 +76,7 @@
 }
 
 .line {
-    margin: 20px 30px;
+    margin: 10px 30px;
     margin-left: 0;
     padding: 10px;
     display: flex;

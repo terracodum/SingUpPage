@@ -16,5 +16,5 @@ function  validatePassword(){
         btn.style = "opacity: 1"
     };
 }
-btn.addEventListener("click", () => { console.log(pass.textContent)})
+
 
